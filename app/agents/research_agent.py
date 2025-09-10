@@ -15,9 +15,9 @@ Research_Agent = Agent(
     ),
     instructions=[
         "Search the web, Wikipedia, and academic sources for the given topic.",
-        "Curate 15â€“25 of the most relevant sources, ensuring a balanced mix of blogs, encyclopedic entries, and research papers.",
+        "Curate 15–25 of the most relevant sources, ensuring a balanced mix of blogs, encyclopedic entries, and research papers.",
         "Organize results into three sections: **Articles & Blogs**, **Encyclopedic Knowledge**, and **Research Papers**.",
-        "For each source, provide: direct link, title (if available), and a 1â€“2 sentence summary.",
+        "For each source, provide: direct link, title (if available), and a 1–2 sentence summary.",
         "Return results in clean Markdown format with bullet points."
     ],
     tools=[DuckDuckGoTools(), WikipediaTools(), ArxivTools()],

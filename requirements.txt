@@ -4,6 +4,6 @@ ddgs
 arxiv
 pypdf
 cohere
-pinecone
 wikipedia
+pinecone==5.4.2
 streamlit
